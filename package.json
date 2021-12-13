@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Sirmaaalik/Progressive-Budget-Tracker/issues"
   },
-  "homepage": "https://github.com/Sirmaaalik/Progressive-Budget-Tracker#readme"
+  "homepage": "https://github.com/Sirmaaalik/Progressive-Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "image-webpack-loader": "^8.0.1",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0"
+  }
 }
